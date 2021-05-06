@@ -1,0 +1,90 @@
+.container {
+    background-color: #fafafa;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+.h4 {
+    padding: 10px;
+    flex-direction: column;
+}
+
+.brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.brand_image {
+    max-width: 100%;
+}
+
+.col_bordered {
+    padding: 50px;
+    border: 1px solid #726363;
+    margin: 2% 0;
+}
+
+@media (max-width: 768px) {
+    .col_bordered {
+      padding: 10px;
+      border: none;
+      margin: 15% 0;
+    }
+
+    .row {
+        height: 100%;
+        overflow-x: auto;
+    }
+
+    .col_md_6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @media (min-width: 760px) {
+        .p_r_10 {
+            padding-right: 10px;
+        }
+    }
+}
+
+@media (min-width: 200px) and (max-width: 290px) {
+    .row {
+        max-height: 630px;
+    }
+}
+
+@media (min-width: 295px) and (max-width: 340px) {
+    .row {
+        max-height: 535px;
+    }
+}
+
+@media (min-width: 345px) and (max-width: 380px) {
+    .row {
+        max-height: 635px;
+    }
+}
+
+@media (min-width: 375px) and (min-height: 812px) {
+    .row {
+        max-height: none;
+    }
+}
+
+@media (min-height: 700px) and (max-height: 800px) {
+    .row {
+        max-height: 720px;
+    }
+}
+
+
+

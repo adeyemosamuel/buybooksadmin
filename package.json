@@ -1,0 +1,32 @@
+{
+  "name": "buybooksinportharcourt-admin",
+  "version": "1.0.0",
+  "description": "This is the admin front end of buy books in port-harcourt app",
+  "private": true,
+  "keywords": [
+    "books"
+  ],
+  "author": "Chuks",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev -p 3006",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "bootstrap": "^4.5.2",
+    "ckeditor4-react": "^1.3.0",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.3",
+    "react-dom": "16.13.1",
+    "sweetalert2": "^10.8.1"
+  }
+}

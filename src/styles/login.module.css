@@ -1,0 +1,39 @@
+.container {
+    background-color: #fafafa;
+    width: 100%;
+    max-width: 100%;
+}
+
+.row {
+    width: 100%;
+    max-width: 100%;
+}
+
+.h4 {
+    padding: 10px;
+    flex-direction: column;
+}
+
+.brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.brand_image {
+    max-width: 100%;
+}
+
+.col_bordered {
+    padding: 50px;
+    border: 1px solid #726363;
+    margin: 6% 0;
+}
+
+@media (max-width: 768px) {
+    .col_bordered {
+      padding: 10px;
+      border: none;
+      margin: 25% 0;
+    }
+}
